@@ -1,35 +1,73 @@
-# client
+Ararion - Landing Page
 
-This template should help get you started developing with Vue 3 in Vite.
+Ararion é uma solução inovadora que oferece pacotes de divulgação para empresas que buscam melhorar sua visibilidade e expandir seu alcance com campanhas publicitárias personalizadas, simples e eficazes. Este projeto implementa uma landing page visualmente atraente, com animações e um design moderno, desenvolvida com Vue.js e Tailwind CSS.
+Recursos
 
-## Recommended IDE Setup
+    Animações suaves: Efeitos de transição animados para um design interativo.
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+    Fundo com gradiente colorido e blur: Efeito visual dinâmico que traz modernidade à página.
 
-## Customize configuration
+    Navegação responsiva: O layout é otimizado para dispositivos móveis e desktops, com um menu de navegação adaptável.
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+    Design elegante: A paleta de cores e fontes foi escolhida para criar uma experiência agradável ao usuário.
 
-## Project Setup
+Tecnologias
 
-```sh
+    Vue.js: Framework JavaScript para construção da interface do usuário.
+
+    Tailwind CSS: Framework CSS utilitário para estilização responsiva e moderna.
+
+    Lucide Icons: Ícones minimalistas e bem desenhados para adicionar elementos visuais.
+
+    SVG e Gradientes: Utilização de SVGs para a decoração e efeitos de fundo.
+
+Instalação
+Pré-requisitos
+
+Antes de começar, certifique-se de ter o Node.js e o npm instalados. Se não os tiver, você pode instalar o Node.js a partir do site oficial.
+Passos para execução
+
+    Clonar o repositório:
+
+git clone https://github.com/usuario/ararion-landing-page.git
+cd ararion-landing-page
+
+Instalar as dependências:
+
 npm install
-```
 
-### Compile and Hot-Reload for Development
+Rodar o servidor de desenvolvimento:
 
-```sh
-npm run dev
-```
+    npm run dev
 
-### Compile and Minify for Production
+    Abra o navegador e acesse http://localhost:3000.
 
-```sh
-npm run build
-```
+Estrutura do Projeto
 
-### Lint with [ESLint](https://eslint.org/)
+    public/ - Arquivos públicos e estáticos, como imagens e fontes.
 
-```sh
-npm run lint
-```
+    src/ - Código fonte do projeto:
+
+        components/ - Componentes reutilizáveis como cabeçalhos, botões, etc.
+
+        assets/ - Arquivos de mídia, como imagens ou ícones.
+
+        views/ - Vistas ou páginas da aplicação.
+
+    tailwind.config.js - Arquivo de configuração do Tailwind CSS.
+
+    package.json - Dependências do projeto e scripts.
+
+Funcionalidades
+
+    Animação do fundo: O efeito de blur colorido no fundo da página muda suavemente quando o usuário interage com a página.
+
+    Gradiente e efeitos de luz: O fundo utiliza um gradiente suave, criando um efeito visual que se mistura com o blur.
+
+    Navegação simples e responsiva: A navegação é adaptada para dispositivos móveis e desktops, com transições elegantes.
+
+    Botões de ação: Chamadas para ação, como "Ver Pacotes", que direcionam os usuários para as seções específicas da página.
+
+Licença
+
+Este projeto está licenciado sob a MIT License - consulte o arquivo LICENSE para mais detalhes.
