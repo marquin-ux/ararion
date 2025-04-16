@@ -1,5 +1,5 @@
 <template>
-  <section id="sobre" class="relative overflow-hidden py-24 px-6 sm:px-10 bg-gray-100 dark:bg-gray-900">
+  <section id="sobre" class="relative overflow-hidden py-24 px-6 sm:px-10 bg-gray-100 dark:bg-gray-800">
     <div class="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
 
       <!-- Imagem com efeito -->

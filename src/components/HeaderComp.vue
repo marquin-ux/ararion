@@ -44,9 +44,11 @@
 
           <!-- Botão para alternar tema (no mobile) -->
           <button @click="toggleDarkMode" class="flex items-center space-x-2 mt-2">
-            <LucideSun v-if="isDark" class="w-6 h-6 text-yellow-500 dark:text-yellow-400 transition" />
-            <LucideMoon v-else class="w-6 h-6 text-gray-800 dark:text-gray-100 transition" />
-            <span class="text-sm font-medium">{{ isDark ? 'Claro' : 'Escuro' }}</span>
+            <LucideSun v-if="isDark" class="w-5 h-5 text-gray-700 dark:text-gray-200 transition" />
+            <LucideMoon v-else class="w-5 h-5 text-gray-700 dark:text-gray-200 transition" />
+            <span class="text-sm text-gray-700 dark:text-gray-200">
+              {{ isDark ? 'Modo Claro' : 'Modo Escuro' }}
+            </span>
           </button>
         </nav>
       </div>
