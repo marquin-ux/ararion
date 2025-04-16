@@ -39,7 +39,7 @@
         <div class="mt-5 flex items-center justify-center gap-x-6">
           <a href="#pacotes"
             class="rounded-md bg-blue-500 px-4 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-blue-400 transition">
-            Ver Pacotes →
+            Sobre o Ararion →
           </a>
         </div>
       </div>
